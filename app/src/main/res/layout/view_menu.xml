@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="100dp"
+    android:paddingRight="100dp"
+    android:id="@+id/menuLayout" >
+
+    <Button
+        android:id="@+id/menu_chooseGameBtn"
+        style="@style/menu_btn"
+        android:background="@drawable/selector_btn_gray"
+        android:text="@string/choose_game" />
+
+    <Button
+        android:id="@+id/menu_gameSetupBtn"
+        style="@style/menu_btn"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_btn_gray"
+        android:text="@string/setup"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/menu_helperBtn"
+        style="@style/menu_btn"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_btn_gray"
+        android:text="@string/helper" />
+
+    <Button
+        android:id="@+id/menu_aboutBtn"
+        style="@style/menu_btn"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_btn_gray"
+        android:text="@string/about"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/menu_exitBtn"
+        style="@style/menu_btn"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/selector_btn_red"
+        android:text="@string/exit" />
+
+</LinearLayout>

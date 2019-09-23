@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#998F66" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#998F66"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="12dp" >
+
+            <com.vane.game.pintu.GameView
+                android:id="@+id/gameView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#444444" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/showImg"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:padding="10dp" />
+			<TextView 
+			    android:id="@+id/bestScoreTv"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textColor="#ffffff"
+			    android:textSize="18sp"
+			    android:layout_margin="5dp"
+			    />
+            <TextView
+                android:id="@+id/stepTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="移动次数：0"
+                android:textColor="#ffffff"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView 
+        android:id="@+id/bigStarImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/selector_big_star"
+        android:padding="20dp"
+        android:clickable="true"
+        android:visibility="gone"
+        />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="action_settings">Settings</string>
+    <string name="score">分数：</string>
+    <string name="bestscore">最高分：</string>
+    <string name="newgame">重新开始</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="choose_game">选择游戏</string>
+    <string name="setup">游戏设置</string>
+    <string name="helper">帮助</string>
+    <string name="about">关于</string>
+    <string name="exit">退出游戏</string>
+    <string name="game_intro">
+游戏规则\n
+
+\t\t\t1、按住鼠标左键不放，可以将右侧的图片碎片拖至拼图区。\n
+\t\t\t2、按住鼠标左键的同时按下鼠标右键，可以对它们进行旋转。\n
+\t\t\t3、将碎片拖到拼图盘里放开鼠标左键，如果这块碎片的旋转方向和位置都正确，则拼图盘会牢牢吸住它。把所有碎片都拼好后本局游戏结束。你将获得应得的奖励！\n
+\t\t\t4、练习场凡是参与拼图的玩家均能获得相应的金币奖励；对战场，胜利的队伍会根据队员完成的拼图数获得相应的金币奖励。</string>
+</resources>
